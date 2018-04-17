@@ -10,14 +10,43 @@ body {
 
 header {
     padding: 20px 0px;
-    color: orange;
-    background: #ccc;
+    color: black;
+    font-style: italic;
+    font-size: 24px;
   }
 
 header, nav, section, aside, footer {
-    background-color: '#ebebeb';
+    background-color: #ebebeb;
 }
 
 header, nav, footer {
     width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: orange;
+}
+
+footer {
+    padding: 20px;
 }
