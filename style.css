@@ -1,10 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+section {
+    width: 495px;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 450px;
+    margin-left: 15px;
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+article h3 {
+    font-style: italic;
+}
+
+.bookTitles{
+    color: #777;
+    background: #ebebeb;
+    padding-top: 5px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bookTitles ul {
+    list-style-type: none;
+}
+
+.bookDesc {
+    color: #777;
+    background: #ebebeb;
+    padding-top: 5px;
+    width: 90%;
+    margin: 0 auto;
+}
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: '#777';
-    background-color: '#777';
-    width: '960px';
-    font-size: '18px';
-    box-sizing: border-box;
+    color: #777;
+    background-color: #777;
+    width: 960px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -31,7 +76,7 @@ nav ul {
     background-color: #333;
 }
 
-nav li {
+nav li, section, aside {
     float: left;
 }
 
@@ -49,4 +94,5 @@ nav li a:hover {
 
 footer {
     padding: 20px;
+    clear: both;
 }
