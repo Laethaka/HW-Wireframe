@@ -2,20 +2,30 @@
     box-sizing: border-box;
 }
 
+
+
 section {
     width: 495px;
     margin-bottom: 20px;
+    height: 500px;
 }
 
 aside {
     width: 450px;
     margin-left: 15px;
+    padding-bottom: 10px;
+}
+
+aside p {
+    width: 425px;
+    margin: 0 auto;
 }
 
 article {
     color: #ebebeb;
     background: #777;
     width: 450px;
+    height: 80%;
     margin: 0 auto;
     padding-top: 10px;
 }
@@ -27,9 +37,9 @@ article h3 {
 .bookTitles{
     color: #777;
     background: #ebebeb;
-    padding-top: 5px;
     width: 90%;
     margin: 0 auto;
+    padding: 5px;
 }
 
 .bookTitles ul {
@@ -39,9 +49,9 @@ article h3 {
 .bookDesc {
     color: #777;
     background: #ebebeb;
-    padding-top: 5px;
+    padding: 5px 5px;
     width: 90%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 body {
@@ -51,6 +61,7 @@ body {
     width: 960px;
     font-size: 18px;
     text-align: center;
+    margin: 0 auto;
 }
 
 header {
